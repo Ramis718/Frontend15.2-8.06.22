@@ -37,3 +37,30 @@
 // const argument = [1, 3, 5,5, 77, 77, 88,10]
 
 // coutChar(argument)
+
+
+
+
+
+
+let ElementEkran = document.querySelector('.ekran');
+let ElementMinus = document.querySelector('.minus');
+let ElementPlus = document.querySelector('.plus');
+
+let count = 0;
+
+ontimeupdate();
+
+ElementPlus.addEventListener("click", () => {
+    count++;
+    ontimeupdate();
+});
+
+ElementMinus.addEventListener("click", () => {
+    count--;
+    ontimeupdate();
+});
+
+function ontimeupdate() {
+    ElementEkran.innerHTML = count;
+};

@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://bipbap.ru/wp-content/uploads/2017/04/4-2.jpg);
+}
+.container {
+    background: red;
+    height: 150px;
+    width: 500git remote add origin px;
+    border: 10px solid burlywood;
+    margin: 400px  650px;
+    align-items: center;
+}
+.counter-display {
+    margin-bottom: 100px;
+    text-align: center;
+    color: red;
+
+}
+.counter-minus {
+    height: 25px;
+    width: 100px;
+    margin-top: 150px;
+    margin-left: 125px;
+    
+}
+.counter-plus {
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
